@@ -9,7 +9,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 logging.basicConfig(level=logging.INFO)
 
 API_TOKEN = os.getenv("API_TOKEN", "8491049225:AAHGsmLEgAX7mMLfIXGzaz-U-CGgzmk6Vfg")
-FRONT_URL = os.getenv("FRONT_URL", "https://game-front-two.vercel.app/webapp.html")
+FRONT_URL = os.getenv("FRONT_URL", "https://game-front-two.vercel.app")
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
